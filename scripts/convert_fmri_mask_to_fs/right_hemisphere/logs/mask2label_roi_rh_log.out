@@ -1,0 +1,1104 @@
+tmp /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272
+Log file is /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat.log
+Wed Jul 24 13:48:38 EDT 2019
+
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+/usr/local/freesurfer/bin/bbregister --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh --s fsaverage --t1 --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat
+
+$Id: bbregister,v 1.75 2016/05/10 20:02:28 greve Exp $
+Linux sylvian.ling.udel.edu 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /usr/local/freesurfer
+mri_convert /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii
+mri_convert.bin /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 1, 0)
+k_ras = (0, 0, 1)
+writing to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii...
+mri_coreg --s fsaverage --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --regdat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.init.dat --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/mri_coreg.lta --nthreads 1 --dof 6 --sep 4 --ftol .0001 --linmintol .01
+
+$Id: mri_coreg.c,v 1.27 2016/04/30 15:11:49 greve Exp $
+cwd /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cmdline mri_coreg --s fsaverage --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --regdat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.init.dat --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/mri_coreg.lta --nthreads 1 --dof 6 --sep 4 --ftol .0001 --linmintol .01 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+dof    6
+nsep    1
+cras0    1
+ftol    0.000100
+linmintol    0.010000
+bf       1
+bflim    30.000000
+bfnsamp    30
+SmoothRef 0
+SatPct    99.990000
+MovOOB 0
+optschema 1
+Reading in mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii
+Reading in ref /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/brainmask.mgz
+Reading in and applying refmask /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/aparc+aseg.mgz
+Setting cras translation parameters to align centers
+Creating random numbers for coordinate dithering
+Performing intensity dithering
+Initial parameters -0.5000 -17.5000 17.5000  0.0000  0.0000  0.0000  1.0000  1.0000  1.0000  0.0000  0.0000  0.0000 
+Separation list (1):  4   min = 4
+DoSmoothing 1
+DoCoordDither 1
+DoIntensityDither 1
+nitersmax 4
+ftol 1.000e-04
+linmintol 1.000e-02
+SatPct 99.990000
+Hist FWHM 7.000000 7.000000
+nthreads 1
+movsat = 1.0000
+mov gstd 1.6917 1.6917 1.6917
+Smoothing mov
+refsat = 110.0000
+ref gstd 1.8914 1.8914 1.8914
+Smoothing ref
+COREGpreproc() done
+Testing if mov and target overlap
+Init cost   -1.0004949718
+nhits = 62275 out of 16777216, Percent Overlap:  23.8
+Initial  RefRAS-to-MovRAS
+ 1.00000   0.00000   0.00000  -0.50000;
+ 0.00000   1.00000   0.00000  -17.50000;
+ 0.00000   0.00000   1.00000   17.50000;
+ 0.00000   0.00000   0.00000   1.00000;
+Initial  RefVox-to-MovVox
+ 0.50000   0.00000   0.00000  -24.75000;
+ 0.00000   0.00000   0.50000  -16.75000;
+ 0.00000  -0.50000   0.00000   97.75000;
+ 0.00000   0.00000   0.00000   1.00000;
+sep = 4 -----------------------------------
+COREGoptBruteForce() 30 1 30
+Turning on MovOOB for BruteForce Search
+#BF# sep= 4 iter=0 lim=30.0 delta=2.00  15.50000 -13.50000 -12.50000 -20.00000  30.00000 -22.00000   -1.0011783
+Turning  MovOOB back off after brute force search
+
+
+---------------------------------
+Init Powel Params dof = 6
+Starting OpenPowel2(), sep = 4
+InitialCost        -1.0027223825 
+#@#  4  188  15.50000 -13.50000 -12.50000 -20.00000 30.00000 -22.00000   -1.0027224
+fs_powell::minimize
+  nparams 6
+  maxfev 4
+  ftol   0.000100
+  linmin_xtol_   0.010000
+  powell nthiter 0: fret = -1.002722
+#@#  4  190  16.50000 -13.50000 -12.50000 -20.00000 30.00000 -22.00000   -1.0027530
+#@#  4  193  17.11803 -13.50000 -12.50000 -20.00000 30.00000 -22.00000   -1.0027771
+#@#  4  196  17.08673 -13.50000 -12.50000 -20.00000 30.00000 -22.00000   -1.0027779
+#@#  4  205  17.08673 -13.51000 -12.50000 -20.00000 30.00000 -22.00000   -1.0027789
+#@#  4  207  17.08673 -13.58402 -12.50000 -20.00000 30.00000 -22.00000   -1.0027802
+#@#  4  208  17.08673 -13.55659 -12.50000 -20.00000 30.00000 -22.00000   -1.0027813
+#@#  4  219  17.08673 -13.55659 -12.49000 -20.00000 30.00000 -22.00000   -1.0027815
+#@#  4  220  17.08673 -13.55659 -12.47597 -20.00000 30.00000 -22.00000   -1.0027820
+#@#  4  222  17.08673 -13.55659 -12.46098 -20.00000 30.00000 -22.00000   -1.0027822
+#@#  4  228  17.08673 -13.55659 -12.46098 -20.61803 30.00000 -22.00000   -1.0027934
+#@#  4  242  17.08673 -13.55659 -12.46098 -20.61803 30.02324 -22.00000   -1.0027936
+#@#  4  252  17.08673 -13.55659 -12.46098 -20.61803 30.02324 -22.06771   -1.0027963
+#@#  4  253  17.08673 -13.55659 -12.46098 -20.61803 30.02324 -22.07954   -1.0027964
+Powell done niters total = 0
+OptTimeSec  2.5 sec
+OptTimeMin  0.04 min
+nEvals 255
+Final parameters  17.08672523 -13.55659389 -12.46098328 -20.61803436  30.02323723 -22.08954239 
+Final cost   -1.002796376178257
+ 
+
+---------------------------------
+mri_coreg utimesec    40.968704
+mri_coreg stimesec    0.133995
+mri_coreg ru_maxrss   423504
+mri_coreg ru_ixrss    0
+mri_coreg ru_idrss    0
+mri_coreg ru_isrss    0
+mri_coreg ru_minflt   127472
+mri_coreg ru_majflt   0
+mri_coreg ru_nswap    0
+mri_coreg ru_inblock  0
+mri_coreg ru_oublock  16
+mri_coreg ru_msgsnd   0
+mri_coreg ru_msgrcv   0
+mri_coreg ru_nsignals 0
+mri_coreg ru_nvcsw    0
+mri_coreg ru_nivcsw   13
+Final  RefRAS-to-MovRAS
+ 0.80227  -0.32560   0.50035   17.08673;
+ 0.51523   0.80099  -0.30489  -13.55659;
+-0.30151   0.50240   0.81037  -12.46098;
+ 0.00000   0.00000   0.00000   1.00000;
+Final  RefVox-to-MovVox
+ 0.40113   0.25018   0.16280  -73.74925;
+-0.25761   0.15244   0.40049   11.42010;
+ 0.15075  -0.40518   0.25120   19.18317;
+ 0.00000   0.00000   0.00000   1.00000;
+Final parameters 17.0867 -13.5566 -12.4610 -20.6180 30.0232 -22.0895 
+nhits = 61509 out of 16777216, Percent Overlap:  23.5
+mri_coreg RunTimeSec 41.1 sec
+To check run:
+   tkregisterfv --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --targ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/brainmask.mgz --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/mri_coreg.lta --s fsaverage --surfs 
+
+mri_coreg done
+
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.init.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.init.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+movvol /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii
+regfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.init.dat
+subject fsaverage
+dof 6
+outregfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 100
+PenaltySign  1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000100
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1564847244
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 0.80227  -0.32560   0.50035   18.08672;
+-0.30151   0.50240   0.81037  -31.46098;
+-0.51523  -0.80099   0.30489  -3.44340;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Loading mov
+Projecting LH Surfs
+Loading lh.white surf
+Loading lh.thickness for GM
+GM Proj: 1 0.500000 2.000000
+WM Proj: 0 0.500000 2.000000
+Projecting RH Surfs
+Loading rh.white surf
+Loading rh.thickness for GM
+Projecting RH Surfs
+Using lh.cortex.label
+Using rh.cortex.label
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   0.882496
+ 1  -25.0 -25.0  25.0   0.799913
+ 2  -25.0  25.0 -25.0   0.884213
+ 3  -25.0  25.0  25.0   0.222929
+ 4   25.0 -25.0 -25.0   1.141146
+ 5   25.0 -25.0  25.0   0.888820
+ 6   25.0  25.0 -25.0   0.943362
+ 7   25.0  25.0  25.0   0.842237
+REL:  8  0.749975    6.605116  0.825639 rel = 0.908357 
+Initial costs ----------------
+Number of surface hits 12
+WM  Intensity     0.9014 +/-   0.2221
+Ctx Intensity     0.7203 +/-   0.3791
+Pct Contrast    -41.6289 +/-  74.6677
+Cost   0.7500
+RelCost   0.9084
+
+------------------------------------
+Brute force preopt -4 4 4, n = 729
+     0  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000      0.9156   0.9156  0.0
+     1  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000   0.0000      0.5722   0.5722  0.0
+     4  -4.0000  -4.0000  -4.0000  -4.0000   0.0000   0.0000      0.5632   0.5632  0.0
+    22  -4.0000  -4.0000  -4.0000   4.0000   0.0000   0.0000      0.3451   0.3451  0.0
+   243   0.0000  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000      0.3025   0.3025  0.0
+   249   0.0000  -4.0000  -4.0000  -4.0000   4.0000  -4.0000      0.2857   0.2857  0.0
+   258   0.0000  -4.0000  -4.0000   0.0000   4.0000  -4.0000      0.0000   0.0000  0.0
+   493   4.0000  -4.0000  -4.0000  -4.0000   4.0000   0.0000      0.0000   0.0000  0.0
+Brute Force --------------------------
+Min cost was 0.000000
+Number of iterations   729
+Search time 0.788000 sec
+Parameters at best (transmm, rotdeg)
+  4.000  -4.000  -4.000 -4.000  4.000  0.000 
+--------------------------------------------
+
+Starting Powell Minimization
+Init Powel Params dof = 6
+0 4
+1 -4
+2 -4
+3 -4
+4 4
+5 0
+fs_powell::minimize
+  nparams 6
+  maxfev 36
+  ftol   0.000100
+  linmin_xtol_   0.001000
+  powell nthiter 0: fret = 0.000000
+Powell done niters = 0
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   0.794873
+ 1  -25.0 -25.0  25.0   0.858966
+ 2  -25.0  25.0 -25.0   1.240804
+ 3  -25.0  25.0  25.0   10.000000
+ 4   25.0 -25.0 -25.0   0.821500
+ 5   25.0 -25.0  25.0   10.000000
+ 6   25.0  25.0 -25.0   0.919041
+ 7   25.0  25.0  25.0   1.000000
+REL:  8  0.000000   25.635184  3.204398 rel = 0 
+Number of iterations     0
+Min cost was 0.000000
+Number of FunctionCalls   108
+TolPowell 0.000100
+nMaxItersPowell 36
+OptimizationTime 0.119000 sec
+Parameters at optimum (transmm)  6.61611 -3.38045 -5.38389
+Parameters at optimum (rotdeg) -5.61611  5.61995  1.00151 
+Final costs ----------------
+Number of surface hits 3
+WM  Intensity     0.9850 +/-   0.0260
+Ctx Intensity     0.3490 +/-   0.2675
+Pct Contrast   -103.5981 +/-  57.3327
+Cost   0.0000
+RelCost   0.9084
+Reg at min cost was 
+ 0.75710  -0.41422   0.50520   25.13222;
+-0.33730   0.41442   0.84527  -34.70854;
+-0.55949  -0.81036   0.17404  -7.50144;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Writing optimal reg to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat, type = 14 
+Original Reg 
+ 0.80227  -0.32560   0.50035   18.08672;
+-0.30151   0.50240   0.81037  -31.46098;
+-0.51523  -0.80099   0.30489  -3.44340;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+ 0.04517   0.08862  -0.00485  -7.04550;
+ 0.03579   0.08798  -0.03491   3.24757;
+ 0.04426   0.00937   0.13084   4.05805;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Computing change in lh position
+LH rmsDiffMean 12.670283
+Computing change in rh position
+Surface-RMS-Diff-mm 12.383698 2.792886 18.220599
+mri_segreg done
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat --interp trilinear --wm-proj-abs 2 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat.mincost --dof 6 --nmax 36 --param /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat.param --surf white --brute -0.1 0.1 0.1 --cur-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.curopt.dat --gm-proj-frac 0.5 --nsub 1 --wm-gt-gm 0.5
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat --interp trilinear --wm-proj-abs 2 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat.mincost --dof 6 --nmax 36 --param /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat.param --surf white --brute -0.1 0.1 0.1 --cur-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/reg.curopt.dat --gm-proj-frac 0.5 --nsub 1 --wm-gt-gm 0.5 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+movvol /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/template.nii
+regfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.13272/bbr.pass1.dat
+subject fsaverage
+dof 6
+outregfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 1
+PenaltySign  1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000000
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1564257679
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 0.75710  -0.41422   0.50520   25.13222;
+-0.33730   0.41442   0.84527  -34.70854;
+-0.55949  -0.81036   0.17404  -7.50144;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Loading mov
+Projecting LH Surfs
+Loading lh.white surf
+Loading lh.thickness for GM
+GM Proj: 1 0.500000 2.000000
+WM Proj: 0 0.500000 2.000000
+Projecting RH Surfs
+Loading rh.white surf
+Loading rh.thickness for GM
+Projecting RH Surfs
+Using lh.cortex.label
+Using rh.cortex.label
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   0.828917
+ 1  -25.0 -25.0  25.0   0.778400
+ 2  -25.0  25.0 -25.0   1.335858
+ 3  -25.0  25.0  25.0   0.000000
+ 4   25.0 -25.0 -25.0   0.824880
+ 5   25.0 -25.0  25.0   10.000000
+ 6   25.0  25.0 -25.0   0.974372
+ 7   25.0  25.0  25.0   1.013286
+REL:  8  0.117682   15.755713  1.969464 rel = 0.0597531 
+Initial costs ----------------
+Number of surface hits 654
+WM  Intensity     0.8586 +/-   0.2589
+Ctx Intensity     0.4322 +/-   0.3214
+Pct Contrast    -79.4229 +/-  64.3892
+Cost   0.1177
+RelCost   0.0598
+
+------------------------------------
+Brute force preopt -0.1 0.1 0.1, n = 729
+     0  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000      0.0000   0.0000  0.0
+Brute Force --------------------------
+Min cost was 0.000000
+Number of iterations   729
+Search time 0.786000 sec
+Parameters at best (transmm, rotdeg)
+ -0.100  -0.100  -0.100 -0.100 -0.100 -0.100 
+--------------------------------------------
+
+Starting Powell Minimization
+Init Powel Params dof = 6
+0 -0.1
+1 -0.1
+2 -0.1
+3 -0.1
+4 -0.1
+5 -0.1
+fs_powell::minimize
+  nparams 6
+  maxfev 36
+  ftol   0.000000
+  linmin_xtol_   0.001000
+  powell nthiter 0: fret = 0.143138
+   2  0.900 -0.100 -0.100 -0.100 -0.100 -0.100   0.0651424727
+   9  0.878 -0.100 -0.100 -0.100 -0.100 -0.100   0.0649402549
+  11  0.865 -0.100 -0.100 -0.100 -0.100 -0.100   0.0649225526
+  12  0.871 -0.100 -0.100 -0.100 -0.100 -0.100   0.0649163063
+  14  0.874 -0.100 -0.100 -0.100 -0.100 -0.100   0.0648759878
+  23  0.874 -0.003 -0.100 -0.100 -0.100 -0.100   0.0612860675
+  25  0.874 -0.024 -0.100 -0.100 -0.100 -0.100   0.0607683695
+  26  0.874 -0.029 -0.100 -0.100 -0.100 -0.100   0.0607150598
+  27  0.874 -0.038 -0.100 -0.100 -0.100 -0.100   0.0606403705
+  38  0.874 -0.038 -0.055 -0.100 -0.100 -0.100   0.0604586748
+  39  0.874 -0.038 -0.042 -0.100 -0.100 -0.100   0.0604464809
+  44  0.874 -0.038 -0.043 -0.100 -0.100 -0.100   0.0604371572
+  58  0.874 -0.038 -0.043 -0.099 -0.100 -0.100   0.0604317152
+  78  0.874 -0.038 -0.043 -0.099 -0.100  0.900   0.0462274396
+  79  0.874 -0.038 -0.043 -0.099 -0.100  2.518   0.0139211135
+  80  0.874 -0.038 -0.043 -0.099 -0.100  5.136   0.0000000000
+  powell nthiter 1: fret = 0.000000
+Powell done niters = 1
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   0.756845
+ 1  -25.0 -25.0  25.0   0.963715
+ 2  -25.0  25.0 -25.0   0.980719
+ 3  -25.0  25.0  25.0   1.260264
+ 4   25.0 -25.0 -25.0   0.854667
+ 5   25.0 -25.0  25.0   10.000000
+ 6   25.0  25.0 -25.0   1.136995
+ 7   25.0  25.0  25.0   0.877713
+REL:  8  0.000000   16.830918  2.103865 rel = 0 
+Number of iterations     1
+Min cost was 0.000000
+Number of FunctionCalls   222
+TolPowell 0.000000
+nMaxItersPowell 36
+OptimizationTime 12.724000 sec
+Parameters at optimum (transmm)  1.45588  2.61539  2.60662
+Parameters at optimum (rotdeg)  2.51771  2.51611  7.59093 
+Final costs ----------------
+Number of surface hits 66
+WM  Intensity     0.9366 +/-   0.1373
+Ctx Intensity     0.1264 +/-   0.0977
+Pct Contrast   -156.9561 +/-  29.6786
+Cost   0.0000
+RelCost   0.0598
+Reg at min cost was 
+ 0.76604  -0.50402   0.39893   30.48839;
+-0.21307   0.38642   0.89737  -28.16469;
+-0.60645  -0.77242   0.18862  -7.50689;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Writing optimal reg to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat, type = 14 
+Original Reg 
+ 0.75710  -0.41422   0.50520   25.13222;
+-0.33730   0.41442   0.84527  -34.70854;
+-0.55949  -0.81036   0.17404  -7.50144;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+-0.00894   0.08981   0.10627  -5.35617;
+-0.12423   0.02800  -0.05210  -6.54385;
+ 0.04696  -0.03793  -0.01458   0.00544;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Computing change in lh position
+LH rmsDiffMean 8.166006
+Computing change in rh position
+Surface-RMS-Diff-mm 10.961742 4.141223 20.350444
+mri_segreg done
+MinCost: 0.000000 0.936568 0.126373 -156.956126 
+Cleaning up
+ 
+Started at Wed Jul 24 13:48:38 EDT 2019 
+Ended   at Wed Jul 24 13:49:46 EDT 2019
+BBR-Run-Time-Sec 68
+ 
+bbregister Done
+To check results, run:
+tkregisterfv --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat --surfs 
+ 
+srcvol = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp.mgh
+srcreg = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidAntTemp.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+-------- original matrix -----------
+ 0.76604  -0.50402   0.39893   30.48839;
+-0.21307   0.38642   0.89737  -28.16469;
+-0.60645  -0.77242   0.18862  -7.50689;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/rh.white
+Done reading source surface
+Mapping Source Volume onto Source Subject Surface
+ 1 0 0 0
+using old
+Done mapping volume to surface
+Number of source voxels hit = 12520
+Writing to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidAntTemp_surf.mgh
+Dim: 163842 1 1
+Loading mri RightMidAntTemp_surf.mgh
+Scanning the volume
+Centroid:   8.35  -22.98    3.85 
+mri_cor2label completed SUCCESSFULLY
+$Id: mri_cor2label.c,v 1.12 2011/03/02 00:04:14 nicks Exp $
+Loading /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/rh.white
+Found 576 label voxels
+Writing label file RightMidAntTemp_surf.label
+tmp /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819
+Log file is /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat.log
+Wed Jul 24 13:49:48 EDT 2019
+
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask
+/usr/local/freesurfer/bin/bbregister --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh --s fsaverage --t1 --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat
+
+$Id: bbregister,v 1.75 2016/05/10 20:02:28 greve Exp $
+Linux sylvian.ling.udel.edu 3.10.0-957.21.3.el7.x86_64 #1 SMP Tue Jun 18 16:35:19 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /usr/local/freesurfer
+mri_convert /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii
+mri_convert.bin /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii 
+$Id: mri_convert.c,v 1.226 2016/02/26 16:15:24 mreuter Exp $
+reading from /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh...
+TR=0.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 1, 0)
+k_ras = (0, 0, 1)
+writing to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii...
+mri_coreg --s fsaverage --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --regdat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.init.dat --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/mri_coreg.lta --nthreads 1 --dof 6 --sep 4 --ftol .0001 --linmintol .01
+
+$Id: mri_coreg.c,v 1.27 2016/04/30 15:11:49 greve Exp $
+cwd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask
+cmdline mri_coreg --s fsaverage --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --regdat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.init.dat --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/mri_coreg.lta --nthreads 1 --dof 6 --sep 4 --ftol .0001 --linmintol .01 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+dof    6
+nsep    1
+cras0    1
+ftol    0.000100
+linmintol    0.010000
+bf       1
+bflim    30.000000
+bfnsamp    30
+SmoothRef 0
+SatPct    99.990000
+MovOOB 0
+optschema 1
+Reading in mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii
+Reading in ref /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/brainmask.mgz
+Reading in and applying refmask /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/aparc+aseg.mgz
+Setting cras translation parameters to align centers
+Creating random numbers for coordinate dithering
+Performing intensity dithering
+Initial parameters -0.5000 -17.5000 17.5000  0.0000  0.0000  0.0000  1.0000  1.0000  1.0000  0.0000  0.0000  0.0000 
+Separation list (1):  4   min = 4
+DoSmoothing 1
+DoCoordDither 1
+DoIntensityDither 1
+nitersmax 4
+ftol 1.000e-04
+linmintol 1.000e-02
+SatPct 99.990000
+Hist FWHM 7.000000 7.000000
+nthreads 1
+movsat = 1.0000
+mov gstd 1.6917 1.6917 1.6917
+Smoothing mov
+refsat = 110.0000
+ref gstd 1.8914 1.8914 1.8914
+Smoothing ref
+COREGpreproc() done
+Testing if mov and target overlap
+Init cost   -1.0013393888
+nhits = 62275 out of 16777216, Percent Overlap:  23.8
+Initial  RefRAS-to-MovRAS
+ 1.00000   0.00000   0.00000  -0.50000;
+ 0.00000   1.00000   0.00000  -17.50000;
+ 0.00000   0.00000   1.00000   17.50000;
+ 0.00000   0.00000   0.00000   1.00000;
+Initial  RefVox-to-MovVox
+ 0.50000   0.00000   0.00000  -24.75000;
+ 0.00000   0.00000   0.50000  -16.75000;
+ 0.00000  -0.50000   0.00000   97.75000;
+ 0.00000   0.00000   0.00000   1.00000;
+sep = 4 -----------------------------------
+COREGoptBruteForce() 30 1 30
+Turning on MovOOB for BruteForce Search
+#BF# sep= 4 iter=0 lim=30.0 delta=2.00  29.50000 -33.50000 -12.50000   4.00000  -2.00000   0.00000   -1.0018526
+Turning  MovOOB back off after brute force search
+
+
+---------------------------------
+Init Powel Params dof = 6
+Starting OpenPowel2(), sep = 4
+InitialCost        -1.0039031506 
+#@#  4  188  29.50000 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0039032
+fs_powell::minimize
+  nparams 6
+  maxfev 4
+  ftol   0.000100
+  linmin_xtol_   0.010000
+  powell nthiter 0: fret = -1.003903
+#@#  4  190  30.50000 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0039085
+#@#  4  191  32.11803 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0040164
+#@#  4  192  34.73607 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0040929
+#@#  4  197  34.59017 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0040941
+#@#  4  198  34.64841 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0040966
+#@#  4  199  34.65842 -33.50000 -12.50000 4.00000 -2.00000 0.00000   -1.0040969
+#@#  4  209  34.65842 -33.45686 -12.50000 4.00000 -2.00000 0.00000   -1.0040971
+#@#  4  210  34.65842 -33.46978 -12.50000 4.00000 -2.00000 0.00000   -1.0040982
+#@#  4  219  34.65842 -33.47978 -12.59852 4.00000 -2.00000 0.00000   -1.0041001
+#@#  4  223  34.65842 -33.47978 -12.60852 4.00000 -2.00000 0.00000   -1.0041003
+#@#  4  230  34.65842 -33.47978 -12.60852 4.38197 -2.00000 0.00000   -1.0041035
+#@#  4  234  34.65842 -33.47978 -12.60852 4.34107 -2.00000 0.00000   -1.0041039
+#@#  4  235  34.65842 -33.47978 -12.60852 4.35107 -2.00000 0.00000   -1.0041041
+#@#  4  245  34.65842 -33.47978 -12.60852 4.35107 -1.96102 0.00000   -1.0041053
+#@#  4  246  34.65842 -33.47978 -12.60852 4.35107 -1.95102 0.00000   -1.0041057
+#@#  4  256  34.65842 -33.47978 -12.60852 4.35107 -1.95102 0.09974   -1.0041063
+#@#  4  258  34.65842 -33.47978 -12.60852 4.35107 -1.95102 0.06051   -1.0041066
+#@#  4  259  34.65842 -33.47978 -12.60852 4.35107 -1.95102 0.07051   -1.0041068
+  powell nthiter 1: fret = -1.004107
+#@#  4  301  34.65842 -33.48978 -12.50552 4.35107 -1.95102 0.07051   -1.0041077
+#@#  4  303  34.65842 -33.48978 -12.53172 4.35107 -1.95102 0.07051   -1.0041078
+#@#  4  315  34.65842 -33.48978 -12.56106 4.39241 -1.95102 0.07051   -1.0041084
+#@#  4  326  34.65842 -33.48978 -12.56106 4.39241 -1.91588 0.07051   -1.0041089
+#@#  4  327  34.65842 -33.48978 -12.56106 4.39241 -1.90588 0.07051   -1.0041090
+Powell done niters total = 1
+OptTimeSec  5.4 sec
+OptTimeMin  0.09 min
+nEvals 340
+Final parameters  34.65841675 -33.48977661 -12.56105518   4.39240694  -1.88797665   0.07051247 
+Final cost   -1.004109077849142
+ 
+
+---------------------------------
+mri_coreg utimesec    43.815646
+mri_coreg stimesec    0.142995
+mri_coreg ru_maxrss   423496
+mri_coreg ru_ixrss    0
+mri_coreg ru_idrss    0
+mri_coreg ru_isrss    0
+mri_coreg ru_minflt   127471
+mri_coreg ru_majflt   0
+mri_coreg ru_nswap    0
+mri_coreg ru_inblock  0
+mri_coreg ru_oublock  16
+mri_coreg ru_msgsnd   0
+mri_coreg ru_msgrcv   0
+mri_coreg ru_nsignals 0
+mri_coreg ru_nvcsw    0
+mri_coreg ru_nivcsw   35
+Final  RefRAS-to-MovRAS
+ 0.99946   0.00123  -0.03295   34.65842;
+ 0.00130   0.99707   0.07655  -33.48978;
+ 0.03294  -0.07655   0.99652  -12.56106;
+ 0.00000   0.00000   0.00000   1.00000;
+Final  RefVox-to-MovVox
+ 0.49973  -0.01647  -0.00062  -40.10719;
+-0.00065  -0.03827   0.49853  -19.57521;
+-0.01647  -0.49826  -0.03827   89.50418;
+ 0.00000   0.00000   0.00000   1.00000;
+Final parameters 34.6584 -33.4898 -12.5611  4.3924 -1.8880  0.0705 
+nhits = 62332 out of 16777216, Percent Overlap:  23.8
+mri_coreg RunTimeSec 44.0 sec
+To check run:
+   tkregisterfv --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --targ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/mri/brainmask.mgz --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/mri_coreg.lta --s fsaverage --surfs 
+
+mri_coreg done
+
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.init.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.init.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat --subsamp-brute 100 --subsamp 100 --tol 1e-4 --tol1d 1e-3 --brute -4 4 4 --surf white --gm-proj-frac 0.5 --wm-gt-gm 0.5 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+movvol /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii
+regfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.init.dat
+subject fsaverage
+dof 6
+outregfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 100
+PenaltySign  1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000100
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1564747032
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 0.99946   0.00123  -0.03295   35.65840;
+ 0.03294  -0.07655   0.99652  -31.56105;
+-0.00130  -0.99707  -0.07655   16.48978;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Loading mov
+Projecting LH Surfs
+Loading lh.white surf
+Loading lh.thickness for GM
+GM Proj: 1 0.500000 2.000000
+WM Proj: 0 0.500000 2.000000
+Projecting RH Surfs
+Loading rh.white surf
+Loading rh.thickness for GM
+Projecting RH Surfs
+Using lh.cortex.label
+Using rh.cortex.label
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   1.015450
+ 1  -25.0 -25.0  25.0   0.781084
+ 2  -25.0  25.0 -25.0   0.933775
+ 3  -25.0  25.0  25.0   2.000000
+ 4   25.0 -25.0 -25.0   1.027238
+ 5   25.0 -25.0  25.0   0.416850
+ 6   25.0  25.0 -25.0   1.119210
+ 7   25.0  25.0  25.0   0.980605
+REL:  8  0.420992    8.274212  1.034277 rel = 0.40704 
+Initial costs ----------------
+Number of surface hits 19
+WM  Intensity     0.8214 +/-   0.2638
+Ctx Intensity     0.4949 +/-   0.3769
+Pct Contrast    -69.8368 +/-  73.0319
+Cost   0.4210
+RelCost   0.4070
+
+------------------------------------
+Brute force preopt -4 4 4, n = 729
+     0  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000      1.0022   1.0022  0.0
+     1  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000   0.0000      0.7665   0.7665  0.0
+     2  -4.0000  -4.0000  -4.0000  -4.0000  -4.0000   4.0000      0.6830   0.6830  0.0
+     5  -4.0000  -4.0000  -4.0000  -4.0000   0.0000   4.0000      0.4963   0.4963  0.0
+    14  -4.0000  -4.0000  -4.0000   0.0000   0.0000   4.0000      0.4780   0.4780  0.0
+    31  -4.0000  -4.0000   0.0000  -4.0000   0.0000   0.0000      0.4642   0.4642  0.0
+    32  -4.0000  -4.0000   0.0000  -4.0000   0.0000   4.0000      0.4276   0.4276  0.0
+    35  -4.0000  -4.0000   0.0000  -4.0000   4.0000   4.0000      0.3522   0.3522  0.0
+    59  -4.0000  -4.0000   4.0000  -4.0000   0.0000   4.0000      0.3499   0.3499  0.0
+   113  -4.0000   0.0000   0.0000  -4.0000   0.0000   4.0000      0.3348   0.3348  0.0
+   116  -4.0000   0.0000   0.0000  -4.0000   4.0000   4.0000      0.2354   0.2354  0.0
+   161  -4.0000   0.0000   4.0000   4.0000   4.0000   4.0000      0.1905   0.1905  0.0
+   215  -4.0000   4.0000   0.0000   4.0000   4.0000   4.0000      0.1367   0.1367  0.0
+   242  -4.0000   4.0000   4.0000   4.0000   4.0000   4.0000      0.1183   0.1183  0.0
+   251   0.0000  -4.0000  -4.0000  -4.0000   4.0000   4.0000      0.0007   0.0007  0.0
+   275   0.0000  -4.0000   0.0000  -4.0000   0.0000   4.0000      0.0000   0.0000  0.0
+   329   0.0000   0.0000  -4.0000  -4.0000   0.0000   4.0000      0.0000   0.0000  0.0
+   332   0.0000   0.0000  -4.0000  -4.0000   4.0000   4.0000      0.0000   0.0000  0.0
+Brute Force --------------------------
+Min cost was 0.000000
+Number of iterations   729
+Search time 0.779000 sec
+Parameters at best (transmm, rotdeg)
+  0.000   0.000  -4.000 -4.000  4.000  4.000 
+--------------------------------------------
+
+Starting Powell Minimization
+Init Powel Params dof = 6
+0 0
+1 0
+2 -4
+3 -4
+4 4
+5 4
+fs_powell::minimize
+  nparams 6
+  maxfev 36
+  ftol   0.000100
+  linmin_xtol_   0.001000
+  powell nthiter 0: fret = 0.000000
+Powell done niters = 0
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   1.045781
+ 1  -25.0 -25.0  25.0   0.493285
+ 2  -25.0  25.0 -25.0   1.129744
+ 3  -25.0  25.0  25.0   1.271620
+ 4   25.0 -25.0 -25.0   0.879163
+ 5   25.0 -25.0  25.0   0.666667
+ 6   25.0  25.0 -25.0   1.063194
+ 7   25.0  25.0  25.0   1.136516
+REL:  8  0.000000    7.685970  0.960746 rel = 0 
+Number of iterations     0
+Min cost was 0.000000
+Number of FunctionCalls   106
+TolPowell 0.000100
+nMaxItersPowell 36
+OptimizationTime 0.110000 sec
+Parameters at optimum (transmm)  0.61955 -1.61611 -5.61611
+Parameters at optimum (rotdeg) -3.38045  4.61955  2.99808 
+Final costs ----------------
+Number of surface hits 11
+WM  Intensity     0.9006 +/-   0.1578
+Ctx Intensity     0.2436 +/-   0.1863
+Pct Contrast   -122.8782 +/-  47.7809
+Cost   0.0000
+RelCost   0.4070
+Reg at min cost was 
+ 0.99287  -0.07139  -0.09546   39.18409;
+ 0.08485  -0.13913   0.98663  -30.17198;
+-0.08372  -0.98770  -0.13208   9.77459;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Writing optimal reg to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat, type = 14 
+Original Reg 
+ 0.99946   0.00123  -0.03295   35.65840;
+ 0.03294  -0.07655   0.99652  -31.56105;
+-0.00130  -0.99707  -0.07655   16.48978;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+ 0.00659   0.07262   0.06251  -3.52568;
+-0.05191   0.06258   0.00989  -1.38907;
+ 0.08242  -0.00937   0.05554   6.71519;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Computing change in lh position
+LH rmsDiffMean 7.974881
+Computing change in rh position
+Surface-RMS-Diff-mm 10.114768 3.194759 16.854622
+mri_segreg done
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat --interp trilinear --wm-proj-abs 2 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat.mincost --dof 6 --nmax 36 --param /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat.param --surf white --brute -0.1 0.1 0.1 --cur-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.curopt.dat --gm-proj-frac 0.5 --nsub 1 --wm-gt-gm 0.5
+$Id: mri_segreg.c,v 1.113 2016/05/10 03:23:20 greve Exp $
+setenv SUBJECTS_DIR /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask
+mri_segreg --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii --init-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat --out-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat --interp trilinear --wm-proj-abs 2 --tol 1e-8 --tol1d 1e-3 --c0 0 --mincost /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat.mincost --dof 6 --nmax 36 --param /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat.param --surf white --brute -0.1 0.1 0.1 --cur-reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/reg.curopt.dat --gm-proj-frac 0.5 --nsub 1 --wm-gt-gm 0.5 
+sysname  Linux
+hostname sylvian.ling.udel.edu
+machine  x86_64
+user     jlegault
+movvol /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/template.nii
+regfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/tmp.bbregister.19819/bbr.pass1.dat
+subject fsaverage
+dof 6
+outregfile /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat
+UseMask 0
+UseLH 1
+UseRH 1
+nsubsamp 1
+PenaltySign  1
+PenaltySlope 0.500000
+PenaltyCenter 0.000000
+surfname white
+GMProjFrac 0.500000
+WMProjAbs 2.000000
+lhcostfile (null)
+rhcostfile (null)
+interp  trilinear (1)
+frame  0
+TolPowell 0.000000
+nMaxItersPowell 36
+n1dmin  3
+Profile   0
+Gdiag_no  -1
+AddNoise  0 (0)
+SynthSeed 1564903085
+TransRandMax 0.000000
+RotRandMax 0.000000
+Translations 0.000000 0.000000 0.000000
+Rotations   0.000000 0.000000 0.000000
+Input reg
+ 0.99287  -0.07139  -0.09546   39.18409;
+ 0.08485  -0.13913   0.98663  -30.17198;
+-0.08372  -0.98770  -0.13208   9.77459;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Loading mov
+Projecting LH Surfs
+Loading lh.white surf
+Loading lh.thickness for GM
+GM Proj: 1 0.500000 2.000000
+WM Proj: 0 0.500000 2.000000
+Projecting RH Surfs
+Loading rh.white surf
+Loading rh.thickness for GM
+Projecting RH Surfs
+Using lh.cortex.label
+Using rh.cortex.label
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   1.010558
+ 1  -25.0 -25.0  25.0   0.566374
+ 2  -25.0  25.0 -25.0   1.135264
+ 3  -25.0  25.0  25.0   1.223217
+ 4   25.0 -25.0 -25.0   0.903582
+ 5   25.0 -25.0  25.0   0.159129
+ 6   25.0  25.0 -25.0   1.092393
+ 7   25.0  25.0  25.0   1.071252
+REL:  8  0.456088    7.161768  0.895221 rel = 0.509469 
+Initial costs ----------------
+Number of surface hits 1164
+WM  Intensity     0.7958 +/-   0.3039
+Ctx Intensity     0.4794 +/-   0.3779
+Pct Contrast    -63.5210 +/-  86.2934
+Cost   0.4561
+RelCost   0.5095
+
+------------------------------------
+Brute force preopt -0.1 0.1 0.1, n = 729
+     0  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000  -0.1000      0.0000   0.0000  0.0
+Brute Force --------------------------
+Min cost was 0.000000
+Number of iterations   729
+Search time 0.770000 sec
+Parameters at best (transmm, rotdeg)
+ -0.100  -0.100  -0.100 -0.100 -0.100 -0.100 
+--------------------------------------------
+
+Starting Powell Minimization
+Init Powel Params dof = 6
+0 -0.1
+1 -0.1
+2 -0.1
+3 -0.1
+4 -0.1
+5 -0.1
+fs_powell::minimize
+  nparams 6
+  maxfev 36
+  ftol   0.000000
+  linmin_xtol_   0.001000
+  powell nthiter 0: fret = 0.417092
+   3 -1.718 -0.100 -0.100 -0.100 -0.100 -0.100   0.2508523379
+  25 -1.718 -0.152 -0.100 -0.100 -0.100 -0.100   0.2504561103
+  29 -1.718 -0.144 -0.100 -0.100 -0.100 -0.100   0.2501861527
+  30 -1.718 -0.143 -0.100 -0.100 -0.100 -0.100   0.2501716125
+  34 -1.718 -0.143  0.900 -0.100 -0.100 -0.100   0.2195848443
+  35 -1.718 -0.143  2.518 -0.100 -0.100 -0.100   0.1937536566
+  38 -1.718 -0.143  1.900 -0.100 -0.100 -0.100   0.1836741783
+  44 -1.718 -0.143  1.916 -0.100 -0.100 -0.100   0.1832253719
+  45 -1.718 -0.143  1.915 -0.100 -0.100 -0.100   0.1831987041
+  46 -1.718 -0.143  1.912 -0.100 -0.100 -0.100   0.1830288364
+  60 -1.718 -0.143  1.912 -0.142 -0.100 -0.100   0.1829534222
+  62 -1.718 -0.143  1.912 -0.126 -0.100 -0.100   0.1829301358
+  63 -1.718 -0.143  1.912 -0.128 -0.100 -0.100   0.1829076846
+  65 -1.718 -0.143  1.912 -0.130 -0.100 -0.100   0.1828929460
+  66 -1.718 -0.143  1.912 -0.131 -0.100 -0.100   0.1828846123
+  69 -1.718 -0.143  1.912 -0.131 -1.718 -0.100   0.1629534426
+  76 -1.718 -0.143  1.912 -0.131 -2.100 -0.100   0.1618892268
+  78 -1.718 -0.143  1.912 -0.131 -1.954 -0.100   0.1585789236
+  79 -1.718 -0.143  1.912 -0.131 -1.922 -0.100   0.1568353256
+  83 -1.718 -0.143  1.912 -0.131 -1.925 -0.100   0.1567644023
+  87 -1.718 -0.143  1.912 -0.131 -1.925  0.900   0.1386791032
+  93 -1.718 -0.143  1.912 -0.131 -1.925  0.827   0.1377380729
+  95 -1.718 -0.143  1.912 -0.131 -1.925  0.795   0.1367170055
+ 100 -1.718 -0.143  1.912 -0.131 -1.925  0.794   0.1365876672
+ 101 -1.718 -0.143  1.912 -0.131 -1.925  0.792   0.1362637816
+  powell nthiter 1: fret = 0.136264
+ 110 -1.717 -0.143  1.912 -0.131 -1.925  0.792   0.1362363221
+ 111 -1.649 -0.143  1.912 -0.131 -1.925  0.792   0.1353067216
+ 114 -1.657 -0.143  1.912 -0.131 -1.925  0.792   0.1339405645
+ 138 -1.657 -0.143  2.912 -0.131 -1.925  0.792   0.1285698832
+ 141 -1.657 -0.143  3.530 -0.131 -1.925  0.792   0.1274917300
+ 142 -1.657 -0.143  3.912 -0.131 -1.925  0.792   0.1238015578
+ 143 -1.657 -0.143  4.148 -0.131 -1.925  0.792   0.1218171218
+ 147 -1.657 -0.143  4.114 -0.131 -1.925  0.792   0.1215964183
+ 148 -1.657 -0.143  4.117 -0.131 -1.925  0.792   0.1212605523
+ 163 -1.657 -0.143  4.117 -0.156 -1.925  0.792   0.1207239005
+ 165 -1.657 -0.143  4.117 -0.148 -1.925  0.792   0.1205906414
+ 166 -1.657 -0.143  4.117 -0.147 -1.925  0.792   0.1205726700
+ 167 -1.657 -0.143  4.117 -0.141 -1.925  0.792   0.1203763429
+ 168 -1.657 -0.143  4.117 -0.137 -1.925  0.792   0.1203001052
+ 171 -1.657 -0.143  4.117 -0.136 -1.925  0.792   0.1202802642
+ 183 -1.657 -0.143  4.117 -0.136 -1.926  0.792   0.1202060833
+  powell nthiter 2: fret = 0.120206
+ 216 -1.653 -0.143  4.117 -0.136 -1.926  0.792   0.1201707872
+ 217 -1.652 -0.143  4.117 -0.136 -1.926  0.792   0.1201660654
+ 248 -1.652 -0.143  4.115 -0.136 -1.926  0.792   0.1201579884
+ 249 -1.652 -0.143  4.113 -0.136 -1.926  0.792   0.1201469882
+  powell nthiter 3: fret = 0.120147
+Powell done niters = 3
+Computing relative cost
+ 0  -25.0 -25.0 -25.0   0.950140
+ 1  -25.0 -25.0  25.0   0.702389
+ 2  -25.0  25.0 -25.0   1.144453
+ 3  -25.0  25.0  25.0   1.356111
+ 4   25.0 -25.0 -25.0   0.975206
+ 5   25.0 -25.0  25.0   0.590504
+ 6   25.0  25.0 -25.0   1.017712
+ 7   25.0  25.0  25.0   0.901540
+REL:  8  0.120147    7.638054  0.954757 rel = 0.12584 
+Number of iterations     3
+Min cost was 0.120147
+Number of FunctionCalls   392
+TolPowell 0.000000
+nMaxItersPowell 36
+OptimizationTime 20.895000 sec
+Parameters at optimum (transmm) -1.65245 -0.14312  4.11317
+Parameters at optimum (rotdeg) -0.13625 -1.92599  0.79168 
+Final costs ----------------
+Number of surface hits 1535
+WM  Intensity     0.8600 +/-   0.2485
+Ctx Intensity     0.3246 +/-   0.2859
+Pct Contrast   -102.0921 +/-  65.5812
+Cost   0.1201
+RelCost   0.5095
+Reg at min cost was 
+ 0.99386  -0.03621  -0.10451   37.59143;
+ 0.09840  -0.14199   0.98497  -29.75236;
+-0.05051  -0.98921  -0.13756   15.27084;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Writing optimal reg to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat, type = 14 
+Original Reg 
+ 0.99287  -0.07139  -0.09546   39.18409;
+ 0.08485  -0.13913   0.98663  -30.17198;
+-0.08372  -0.98770  -0.13208   9.77459;
+ 0.00000   0.00000   0.00000   1.00000;
+
+Original Reg - Optimal Reg
+-0.00099  -0.03518   0.00905   1.59265;
+-0.01354   0.00286   0.00167  -0.41962;
+-0.03321   0.00151   0.00548  -5.49625;
+ 0.00000   0.00000   0.00000   0.00000;
+
+Computing change in lh position
+LH rmsDiffMean 5.287942
+Computing change in rh position
+Surface-RMS-Diff-mm 6.167208 1.165911 8.420358
+mri_segreg done
+MinCost: 0.120147 0.860048 0.324609 -102.092075 
+Cleaning up
+ 
+Started at Wed Jul 24 13:49:48 EDT 2019 
+Ended   at Wed Jul 24 13:51:07 EDT 2019
+BBR-Run-Time-Sec 79
+ 
+bbregister Done
+To check results, run:
+tkregisterfv --mov /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh --reg /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat --surfs 
+ 
+srcvol = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp.mgh
+srcreg = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/fsaverage_register_RightMidPostTemp.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+-------- original matrix -----------
+ 0.99386  -0.03621  -0.10451   37.59143;
+ 0.09840  -0.14199   0.98497  -29.75236;
+-0.05051  -0.98921  -0.13756   15.27084;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/rh.white
+Done reading source surface
+Mapping Source Volume onto Source Subject Surface
+ 1 0 0 0
+using old
+Done mapping volume to surface
+Number of source voxels hit = 14969
+Writing to /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/RightMidPostTemp_surf.mgh
+Dim: 163842 1 1
+Loading mri RightMidPostTemp_surf.mgh
+Scanning the volume
+Centroid:  25.87  -18.21   18.30 
+mri_cor2label completed SUCCESSFULLY
+$Id: mri_cor2label.c,v 1.12 2011/03/02 00:04:14 nicks Exp $
+Loading /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/rh.white
+Found 1261 label voxels
+Writing label file RightMidPostTemp_surf.label

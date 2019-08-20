@@ -1,0 +1,312 @@
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftIFGorb_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta001
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftIFGorb_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 2742 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  2742 nlabel points
+Performing mapping from target back to the source label 125578
+Number of reverse mapping hits = 212
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftIFGorb_surf.label 2954
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftIFGorb_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta002
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftIFGorb_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 2742 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  2742 nlabel points
+Performing mapping from target back to the source label 131249
+Number of reverse mapping hits = 249
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftIFGorb_surf.label 2991
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftIFGorb_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta004
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftIFGorb_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 2742 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  2742 nlabel points
+Performing mapping from target back to the source label 157426
+Number of reverse mapping hits = 584
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftIFGorb_surf.label 3326
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftIFGorb_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta006
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftIFGorb_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 2742 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  2742 nlabel points
+Performing mapping from target back to the source label 160147
+Number of reverse mapping hits = 484
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftIFGorb_surf.label 3226
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftMFG_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta001
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftMFG_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 4054 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  4054 nlabel points
+Performing mapping from target back to the source label 125578
+Number of reverse mapping hits = 99
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftMFG_surf.label 4153
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftMFG_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta002
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftMFG_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 4054 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  4054 nlabel points
+Performing mapping from target back to the source label 131249
+Number of reverse mapping hits = 180
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftMFG_surf.label 4234
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftMFG_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta004
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftMFG_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 4054 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  4054 nlabel points
+Performing mapping from target back to the source label 157426
+Number of reverse mapping hits = 341
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftMFG_surf.label 4395
+mri_label2label: Done
+
+
+srclabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/label/LeftMFG_surf.label
+srcsubject = fsaverage
+trgsubject = sub-blasta006
+trglabel = /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftMFG_surf.label
+regmethod = surface
+
+srchemi = lh
+trghemi = lh
+trgsurface = white
+srcsurfreg = sphere.reg
+trgsurfreg = sphere.reg
+usehash = 1
+Use ProjAbs  = 0, 0
+Use ProjFrac = 0, 0
+DoPaint 0
+
+SUBJECTS_DIR    /home/qigroup/Documents/projects/blast/derivatives/freesurfer
+FREESURFER_HOME /usr/local/freesurfer
+Loading source label.
+Found 4054 points in source label.
+Starting surface-based mapping
+Reading source registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Reading target surface 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white
+Reading target registration 
+ /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.sphere.reg
+Rescaling ...  original radius = 100
+Building target registration hash (res=16).
+Building source registration hash (res=16).
+INFO: found  4054 nlabel points
+Performing mapping from target back to the source label 160147
+Number of reverse mapping hits = 330
+Checking for and removing duplicates
+Writing label file /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftMFG_surf.label 4384
+mri_label2label: Done
+

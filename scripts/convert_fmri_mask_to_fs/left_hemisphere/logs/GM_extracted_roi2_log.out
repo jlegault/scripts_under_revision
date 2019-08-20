@@ -1,0 +1,168 @@
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftIFGorb_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 251902
+Total vertex volume 248651 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2073   1410   3162  2.352 1.334     0.113     0.021       24     1.7  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftIFGorb_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftIFGorb_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 243749
+Total vertex volume 240590 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2099   1451   3951  2.633 1.263     0.121     0.028       29     2.1  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftIFGorb_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftIFGorb_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 284314
+Total vertex volume 280357 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2813   1898   4054  2.189 0.924     0.120     0.023       40     2.5  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftIFGorb_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftIFGorb_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 313665
+Total vertex volume 310119 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2647   1799   4007  2.368 1.123     0.118     0.026       32     2.6  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftIFGorb_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftMFG_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta001/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 251902
+Total vertex volume 248651 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2355   1599   4033  2.623 0.615     0.131     0.027       28     2.6  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta001_LeftMFG_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftMFG_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta002/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 243749
+Total vertex volume 240590 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 2453   1677   4324  2.802 0.468     0.124     0.034       33     3.7  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta002_LeftMFG_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftMFG_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta004/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 284314
+Total vertex volume 280357 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 3206   2180   5363  2.583 0.413     0.114     0.023       27     2.7  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta004_LeftMFG_surf.label
+limiting computations to label /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftMFG_surf.label.
+reading volume /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/mri/wm.mgz...
+reading input surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white...
+reading input pial surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.pial...
+reading input white surface /home/qigroup/Documents/projects/blast/derivatives/freesurfer/sub-blasta006/surf/lh.white...
+Using TH3 vertex volume calc
+Total face volume 313665
+Total vertex volume 310119 (mask=0)
+
+table columns are:
+    number of vertices
+    total surface area (mm^2)
+    total gray matter volume (mm^3)
+    average cortical thickness +- standard deviation (mm)
+    integrated rectified mean curvature
+    integrated rectified Gaussian curvature
+    folding index
+    intrinsic curvature index
+    structure name
+
+ 3202   2200   5864  2.807 0.431     0.110     0.022       25     2.9  /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/sub-blasta006_LeftMFG_surf.label

@@ -1,0 +1,6 @@
+Loading mri LeftSFG_surf.mgh
+Scanning the volume
+$Id: mri_cor2label.c,v 1.12 2011/03/02 00:04:14 nicks Exp $
+Loading /home/qigroup/Documents/projects/blast/derivatives/freesurfer/fsaverage/surf/lh.white
+Found 0 label voxels
+ERROR: found no voxels matching id 1 
