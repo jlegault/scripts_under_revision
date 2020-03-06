@@ -10,6 +10,7 @@ import os.path as op
 import logging
 import sys
 
+# Edited from Taylor Salo's Github script: https://gist.github.com/tsalo/82e442a1d087d849b3602ffb25e4feb5
 # make sure python 3.7 is enabled by exporting path to location of anaconda3 folder
 export PATH=/home/jlegault/anaconda3/bin:$PATH
 
