@@ -17,7 +17,7 @@ cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd
 mlist=$(cat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/ROI_3.list.txt)
 flist=$(cat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/subject.list.txt)
 
-# Runs a nested loop where for each ROI and participant you specified, it will gather the statistical information like GM measures for each subject's individual subject-specific ROI label file . This will currently only run for the left hemisphere.  If you want to do this for the right hemisphere, change the last flag "-b $subject lh" to "-b $subject rh".
+# Runs a nested loop where for each ROI and participant you specified, it will gather the statistical information like GM measures for each subject's individual subject-specific ROI label file . This will currently only run for the left hemisphere.  If you want to do this for the right hemisphere, change the ROI file to the right hemisphere masks and change the last flag "-b $subject lh" to "-b $subject rh".
 for roi in $mlist;
 	do
 	for subject in $flist;
