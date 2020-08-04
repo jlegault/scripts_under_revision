@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This is the second step in the pipeline to extract GM measures from individual participants for designated ROIs.
+
 # Makes a log file which outputs any errors. Change the name of the log file everytime you run this.
 exec 3>&1 4>&2
 trap 'exec 2>&4 1>&3' 0 1 2 3
