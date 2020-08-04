@@ -17,7 +17,7 @@ cd /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd
 mlist=$(cat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/ROI_3.list.txt)
 flist=$(cat /home/qigroup/Documents/projects/blast/derivatives/freesurfer/freesurfer_fsgd_analyses/mask_files/fedorenko_overlap_mask/subject.list.txt)
 
-# Runs a nested loop where for each ROI and participant you specified, it will convert the fMRI mask into a subject-specific freesurfer mask. This will currently only run for the left hemisphere.  If you want to do this for the right hemisphere, change the last flag "-b $subject lh" to "-b $subject rh".
+# Runs a nested loop where for each ROI and participant you specified, it will convert the ROI mask into a subject-specific label file that Freesurfer can read. This will currently only run for the left hemisphere.  If you want to do this for the right hemisphere, change the last flag "-b $subject lh" to "-b $subject rh".
 for roi in $mlist;
 	do
 	for subject in $flist;
